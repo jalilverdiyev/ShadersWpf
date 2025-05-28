@@ -70,34 +70,34 @@
         <StackPanel Margin="10,0,0,0" Orientation="Horizontal">
             <Button
                 Command="{Binding ChangeEffect}"
-                CommandParameter="{x:Static vm:EffectType.Grayscale}"
+                CommandParameter="{x:Static vm:ShaderEffectType.Grayscale}"
                 Content="Grayscale"
                 Style="{DynamicResource ShaderBtnStyle}" />
 
             <Button
                 Command="{Binding ChangeEffect}"
-                CommandParameter="{x:Static vm:EffectType.SepiaTone}"
+                CommandParameter="{x:Static vm:ShaderEffectType.SepiaTone}"
                 Content="Sepia tone"
                 Margin="10,0,0,0"
                 Style="{DynamicResource ShaderBtnStyle}" />
 
             <Button
                 Command="{Binding ChangeEffect}"
-                CommandParameter="{x:Static vm:EffectType.Invert}"
+                CommandParameter="{x:Static vm:ShaderEffectType.Invert}"
                 Content="Invert"
                 Margin="10,0,0,0"
                 Style="{DynamicResource ShaderBtnStyle}" />
 
             <Button
                 Command="{Binding ChangeEffect}"
-                CommandParameter="{x:Static vm:EffectType.Ripple}"
+                CommandParameter="{x:Static vm:ShaderEffectType.Ripple}"
                 Content="Ripple"
                 Margin="10,0,0,0"
                 Style="{DynamicResource ShaderBtnStyle}" />
 
             <Button
                 Command="{Binding ChangeEffect}"
-                CommandParameter="{x:Static vm:EffectType.ScanlineDistortion}"
+                CommandParameter="{x:Static vm:ShaderEffectType.ScanlineDistortion}"
                 Content="Scanline distortion"
                 Margin="10,0,0,0"
                 Style="{DynamicResource ShaderBtnStyle}" />
@@ -105,7 +105,7 @@
 
         <Button
             Command="{Binding ChangeEffect}"
-            CommandParameter="{x:Static vm:EffectType.None}"
+            CommandParameter="{x:Static vm:ShaderEffectType.None}"
             Content="Reset"
             Grid.Column="1"
             Grid.Row="0"
